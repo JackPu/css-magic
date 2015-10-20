@@ -1,4 +1,4 @@
-# css-magic
+# Css-Magic
 css-magic is a project to use css3 make something amazing and collect some best css effect.
 
 
