@@ -6,3 +6,4 @@ css-magic is a project to use css3 make something amazing and collect some best 
 + [Sticky To The Bottom](https://github.com/JackPu/css-magic/blob/master/css/sticky-to-the-bootom.md) ---- [view demo](http://codepen.io/Jack_Pu/pen/zvdmzv)
 + [One side box shadoow](https://github.com/JackPu/css-magic/blob/master/css/one-side-box-shadow.md)
 + [Same height as width in a box](https://github.com/JackPu/css-magic/blob/master/css/same-height-as-width.md)
++ [Google Loading Svg Icon](https://github.com/JackPu/css-magic/blob/master/css/like-google-loading-svg-icon.md)
