@@ -1,0 +1,82 @@
+.m-steps {
+    margin: 20px auto 0;
+    max-width: 920px;
+    .step {
+        float: left;
+        padding: 0 10px;
+        margin-left: 90px;
+        position: relative;
+        
+        &:first-child{
+            margin-left: 40px;
+        }
+        &:first-child::before{
+            display: none;
+        }
+        .num{
+            display: block;
+            position: relative;
+            width: 48px;
+            height: 48px;
+            box-sizing:  border-box;
+            border: 3px solid #fff;
+            background: #fff;
+            border-radius: 24px;
+            line-height: 44px;
+            color: #ddd;
+            text-align: center;
+            font-size: 16px;
+            .desc{
+                display: block;
+                position: absolute;
+                top:58px;
+                left:50%;
+                width: 70px;
+                margin-left: -35px;
+                line-height: 1;
+                font-size: 14px;
+                color:#555;
+            }
+            .fui-check{
+                display: none;
+            }
+            
+        }
+    }
+    .step:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        right: 66px;
+        margin-top: -4px;
+        width: 90px;
+        height: 5px;
+        background: #fff;
+    }
+
+    .step.active {
+        .num{
+            color: @themecolor; 
+            border-color: @themecolor;
+        }
+        
+    }
+    .step.done{
+        .num{
+            background-color: @green-color;
+            border-color: @green-color;
+            color: #fff;
+            
+            .num-text{
+                display: none;
+            }
+            .fui-check {
+	           display: inline;
+            }
+        }
+    }
+        
+}
+
